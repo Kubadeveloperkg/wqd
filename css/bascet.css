@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+    background: url(../img/pizza1.png)no-repeat center/cover;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+#header{
+    padding: 20PX 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav a{
+   color: #FFFFFF;
+   font-size: 14px;
+   font-weight: 600;
+   margin: 0 20px;
+   transition: .4s;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+select{
+    width: 49px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(53, 53, 53);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    gap: 20px;
+}
+
+.header button{
+    width: 66px;
+    height: 30px;
+    border-radius: 5px;
+    background: orange;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    gap: 30px;
+}
+
+.fa-cart-shopping{
+    font-size: 26px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h4{
+    color:#E0E6E9 ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-icon{
+    position: relative;
+}
+
+.hero-icon input{
+    width:633px;
+    height: 30px;
+    padding: 14px 0 14px  32px;
+    border-radius: 8px;
+    background: #FAFAFA33;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 15px;
+    left: 5px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 516px;
+    height: 241px;
+    margin: 0 15px;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+.swiper-pagination-bullet{
+    bottom: 12px;
+    background: orange;
+  }

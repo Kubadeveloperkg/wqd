@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1300px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: "Barlow", sans-serif;
+    background: url(../img/pizza1.png)no-repeat center/cover;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+#header{
+    padding: 20PX 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.nav a{
+   color: #FFFFFF;
+   font-size: 14px;
+   font-weight: 600;
+   margin: 0 20px;
+   transition: .4s;
+}
+
+.nav a:hover{
+    color: orange;
+}
+
+select{
+    width: 49px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(53, 53, 53);
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    outline: none;
+    gap: 20px;
+}
+
+.header button{
+    width: 66px;
+    height: 30px;
+    border-radius: 5px;
+    background: orange;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 15px;
+    gap: 30px;
+}
+
+.fa-cart-shopping{
+    font-size: 26px;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero h4{
+    color:#E0E6E9 ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.hero-icon{
+    position: relative;
+}
+
+.hero-icon input{
+    width:633px;
+    height: 30px;
+    padding: 14px 0 14px  32px;
+    border-radius: 8px;
+    background: #FAFAFA33;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.fa-magnifying-glass{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    top: 15px;
+    left: 5px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 516px;
+    height: 241px;
+    margin: 0 15px;
+  }
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+
+.swiper-pagination-bullet{
+    bottom: 12px;
+    background: orange;
+  }
+
+  .meal{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+  }
+
+  .meal a{
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  hr{
+    margin: 15px 0;
+  }
+
+  .filtiration{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+  }
+  
+  .filtiration h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+
+  }
+
+.filtiration select{
+  width: 143px;
+  height: 48px;
+  border-radius: 8px;
+  background:#403D3B;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  padding-left: 15px;
+  margin-left:400px;
+}
+
+.meal{
+  width: 215px;
+  height: 310px;
+  border-radius: 10px;
+  background: #FFFFFF1A;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meal img{
+  position: absolute;
+  top: -50px;
+}
+
+.meal-info {
+  margin-top:110px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.meal-info h3{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.meal-info p{
+  color: white;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.meal-price{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.meal-price h4{
+  color: white;
+}
+.meal-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnone{
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background:#7E7E7E ;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btntwo{
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  background: transparent;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border: 1.5px solid#7E7E7E;
+  margin: -9px;
+  cursor: pointer;
+}
+
+.meal-last-btn{
+  width: 173px;
+  height: 30px;
+  border-radius: 5px;
+  background: orange;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.meal{
+  margin: 30px 0;
+}
+
+.main-meal{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+
+.main-food{
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket-title{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main-basket{
+  width: 380px;
+  
+}
+
+.main-basket sup{
+  font-size: 13px;
+}
+
+.basket-buttons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.basket-buttons button{
+  padding: 10px 20px ;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid gray;
+  color: orange;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.basket-buttons button:hover{
+  background: orange;
+  color: white;
+}
+
+.main-basket h4{
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
